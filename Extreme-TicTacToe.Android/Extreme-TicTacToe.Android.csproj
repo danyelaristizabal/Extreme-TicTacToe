@@ -91,9 +91,9 @@
     <Folder Include="Resources\drawable-xxxhdpi\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Extreme_TicTacToe\Extreme_TicTacToe.csproj">
-      <Project>{60A00288-3792-45ED-B863-76E6455223DE}</Project>
-      <Name>Extreme_TicTacToe</Name>
+    <ProjectReference Include="..\Extreme-TicTacToe\Extreme-TicTacToe.csproj">
+      <Project>{7BC25B4D-AE52-437E-8175-4DD45ABE779B}</Project>
+      <Name>Extreme-TicTacToe</Name>
     </ProjectReference>
   </ItemGroup>
  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />

@@ -146,15 +146,16 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
+    <Reference Include="MonoTouch.Dialog-1" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\Extreme_TicTacToe\Extreme_TicTacToe.csproj">
-      <Project>{60A00288-3792-45ED-B863-76E6455223DE}</Project>
-      <Name>Extreme_TicTacToe</Name>
+    <ProjectReference Include="..\Extreme-TicTacToe\Extreme-TicTacToe.csproj">
+      <Project>{7BC25B4D-AE52-437E-8175-4DD45ABE779B}</Project>
+      <Name>Extreme-TicTacToe</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

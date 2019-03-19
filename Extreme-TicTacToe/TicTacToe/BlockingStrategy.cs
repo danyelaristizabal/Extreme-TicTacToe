@@ -8,7 +8,6 @@ namespace TicTacToe
         private static readonly int[] corners = { 1, 3, 7, 9 };
         internal static int FirstMove(Player myPlayer)
          {
-
             if (myPlayer.PlayerMoves[0] == 5)
             {
                 var Rand = new Random();
