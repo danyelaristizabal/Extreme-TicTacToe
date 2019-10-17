@@ -1,2 +1,2 @@
 # Extreme-TicTacToe
-Multiplatform Xamarin game TicTacToe with support of 9x9 games.
+Multiplatform Xamarin game TicTacToe with support for 9x9 games.
