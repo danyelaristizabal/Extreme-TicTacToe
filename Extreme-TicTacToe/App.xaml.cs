@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -7,6 +7,7 @@ namespace Extreme_TicTacToe
 {
     public partial class App : Application
     {
+	// test comment 
         public App()
         {
             InitializeComponent();
